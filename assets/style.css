@@ -191,23 +191,6 @@ header {
     border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* contact page css */
 .icon1 {
     background-color:white;
@@ -219,6 +202,41 @@ header {
 .icon2 {
     padding:20px;
 }
+
+/* admission page css */
+.name_form{
+  border-radius: 12px;
+  background: #F2F2F2;
+  width: 100%;
+  height: 45px;
+  flex-shrink: 0;
+  border: transparent;
+  padding-left: 20px;
+  margin:10px;
+  }
+
+  .text_form  {
+    padding:20px;
+    width: 100%;
+  }
+
+  .Send_Message_btn{
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #07364C;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+    width: 180px;
+    height: 42px;
+    /* flex-shrink: 0;
+    margin-top: 26px;
+    margin-left: 55px; */
+    }
 
 
  
