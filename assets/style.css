@@ -132,21 +132,121 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
-
-
 *{
     font-family: 'Inter', sans-serif;  
 }
 
+.solid-icon {
+    font-weight: 900 !important; /* You can adjust the font-weight to achieve a solid appearance */
+    color:  #026666;
+    padding: 10px;
+}
+
+@media (min-width:992px) {
+    .bg-circle-red {
+         
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+}
+
+}
+.bg-circle-red {
+    background: #F5F5F5;
+    
+    margin-top: -10px;
+        border-radius: 50%; /* Make it a circle */
+        width: 40px; /* Adjust width as needed */
+        height: 40px; /* Adjust height as needed */
+   
+    }
+
+@media (min-width:768px) {
+    
+
+    .slider_card{
+        /* position: relative; */
+        background-color: #fff;
+        height: auto;
+        width: auto;
+        margin-top: -60px;
+        /* margin-right: -45px !important; */
+        border-radius: 50px !important;
+     
+    }
 
 
-.slider_card{
-    position: relative;
-    background-color: #fff;
-    height: auto;
-    width: auto;
-    margin-top: -5%;
-    border-radius: 10px;
+}
+@media (max-width:576px) {
+    
+
+.disible_to_md{
+display: none ;
+}
+
+
+}
+@media (max-width:576px) {
+
+
+       
+    .style_to_xs_card{
+padding-top: 20px !important;
+padding-bottom: 20px !important;
+
+    }
+    .style_to_xs{
+        padding-top: 0px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .only_xs_mb{
+        margin-bottom: 20px;
+    }
+}
+
+.achive_heading{
+ font-size: 30px;
+font-weight: 600;
+line-height: 52px;
+color: #016867;
+
+}
+  
+.achive_para{
+    
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+ 
+
+}
+.text_card_top{
+    padding-top: 30px;
+    padding-bottom  : 20px;
+
+}
+  
+
+.custom-select-width select {
+    width: 100%; /* Adjust the width as per your requirement */
+    border-radius: 50px !important;
+}
+
+
+
+
+
+.year_bg_card{
+ 
+    background-color: #026666;
+    border-radius: 50px !important;
+display: flex;
+justify-content: center;
+width: 5px !important;
+
 }
 
 .content_card{
