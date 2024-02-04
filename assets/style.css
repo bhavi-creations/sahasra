@@ -238,7 +238,165 @@ header {
     margin-left: 55px; */
     }
 
+/* contact page css */
+.hello_crd{
+    margin-right: -425px;
+ }
+  
+   
+  
+ 
+  
+  .form_card_in  {
+    max-width: 400px;
+    /* margin: 20px auto; */
+  }
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .form-card{
+   height: 500px;
+   border-radius: 25px;
+   background: #FFF;
+   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  /* margin-left:10px ; */
+  margin-bottom: 20px;
+  }
+  
+  
+  
+  .Send_Message_btn{
+  text-align: center;
+  justify-content: center;
+  border-radius: 25px;
+  background: #026666;
+  color: #FFF;
+  
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 125px;
+  height: 42px;
+  /* flex-shrink: 0; */
+  margin-top: 26px;
+  margin-bottom: -60px !important;
+  /* margin-left: 55px; */
+  }
+  .form_head{
+    color: #333;
+    font-family:  'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  
+  
+  
+  }
+  
+  .name_form{
+  border-radius: 12px;
+   background: #E9E9E9;
 
+  width: 175px;
+  height: 45px;
+  flex-shrink: 0;
+  border: transparent;
+  padding-left: 20px;
+  }
+  
+  
+  .text_form{
+  border-radius: 12px;
+  background: #E9E9E9;
+  width: 370px;
+  height: 200px;
+  flex-shrink: 0;
+  border: transparent;
+  padding-left: 20px;
+  }
+  
+  .card_head{
+    margin-top: -250px;
+    z-index: 10;
+  }
+  
+  
+  
+
+
+  @media (min-width:992px) {
+      
+  .card_move{
+   
+    margin-top: -430px;
+    margin-right:70px !important;
+  }
+   
+  
+  }  
+ 
+  
+
+  @media (max-width:992px) {
+
+    .card_move{
+     
+       
+      margin-bottom:70px !important;
+    }
+    .map_mesur{
+
+
+        display: none;
+      }
+    
+    }  
+  
+  
+  
+
+
+  @media (max-width:576px){
+
+.new_txt_area{
+    width: 250px;
+}
+
+
+  }
+  
+  
+@media (max-width:992px) {
+    
+    .for_xs{
+        margin-top: 40px;
+    }
+
+
+
+
+}
+
+@media (min-width:992px) {
+    .map_mesur_max{
+        display: none;
+    }
+}
+  
+  
+  
+  
+  @media (min-width:480px) and (max-width:768px) {
+    .mid_text{
+        width: 350px;
+    }
+  }
  
  
   
