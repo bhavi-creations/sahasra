@@ -328,7 +328,7 @@ left: 796px;
   }
 
  
-  .Send_Message_btn{
+  /* .Send_Message_btn{
     text-align: center;
     justify-content: center;
     border-radius: 12px;
@@ -338,13 +338,30 @@ left: 796px;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    /* line-height: normal; */
+   
     width: 180px;
     height: 42px;
-    /* flex-shrink: 0;
-    margin-top: 26px;
-    margin-left: 55px; */
-    }
+   
+    } */
+  
+    .Send_Message_btn{
+        text-align: center;
+        justify-content: center;
+        border-radius: 25px;
+        background: #026666;
+        color: #FFF;
+        
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 125px;
+        height: 42px;
+
+        margin-top: 26px;
+        margin-bottom: -60px !important;
+
+        }
 
 /* contact page css */
 .hello_crd{
@@ -375,25 +392,7 @@ left: 796px;
   }
   
   
-  
-  .Send_Message_btn{
-  text-align: center;
-  justify-content: center;
-  border-radius: 25px;
-  background: #026666;
-  color: #FFF;
-  
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  width: 125px;
-  height: 42px;
-  /* flex-shrink: 0; */
-  margin-top: 26px;
-  margin-bottom: -60px !important;
-  /* margin-left: 55px; */
-  }
+
   .form_head{
     color: #333;
     font-family:  'Inter', sans-serif;
@@ -410,7 +409,7 @@ left: 796px;
   .name_form{
   border-radius: 12px;
    background: #E9E9E9;
-text-align: center;
+  text-align: center;
   width: 100%;
   height: 45px;
   flex-shrink: 0;
@@ -776,8 +775,22 @@ color: #016867;
  }
 
 
+}
+@media (min-width:768px) {
+    .only_for_mobile{
+        display: none;
+    }
+}
+/* footer css */
+.foothead {
+    color:#0C0531;
+}
 
+.footpara{
+    color:#6A6B6C;
+}
 
-
-
+.footicon {
+    background-color: #0C0531;
+    border-radius: 30px;
 }
