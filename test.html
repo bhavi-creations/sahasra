@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahasra Junior College</title>
+    <style>
+        
+        .achive_heading {
+            color: #1a1a1a;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .achive_para {
+            color: #4e4e4e;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container card slider_card shadow padding_style disible_to_md disible_up_to_md">
+    <div class="row text-center">
+        <div class="drop_down_style style_to_xs_card col-lg-2 col-md-6 col-sm-6 d-flex align-items-center justify-content-center" style="font-weight: bold;">
+            <div class="custom-select-width">
+                <select id="yearDropdown" onchange="changeYear()" style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
+                    <option value="year" selected><strong> Select Year</strong></option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- ... Other elements in your dropdown ... -->
+        <div class="text_card_top style_to_xs col-lg-2 col-md-6 col-sm-6  " >
+            <p  style="font-weight: bold;">JEE ADVANCED</p>
+        </div>
+
+        <div class="text_card_top style_to_xs col-lg-2 col-md-6 col-sm-6">
+            <p  style="font-weight: bold;">JEE MAIN</p>
+        </div>
+
+        <div class="text_card_top style_to_xs col-lg-3 col-md-6 col-sm-6">
+            <p  style="font-weight: bold;">NEET ADVANCED</p>
+        </div>
+
+        <div class="text_card_top style_to_xs col-lg-2 col-md-6 col-sm-6">
+            <p  style="font-weight: bold;">EAPCET</p>
+        </div>
+
+        <div class="text_card_top style_to_xs only_xs_mb col-lg-1 col-md-6  col-sm-6">
+            <i  style="font-weight: bold;" class="bi bi-download solid-icon bg-circle-red"></i>
+        </div>
+    </div>
+</div>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-row justify-content-center">
+                <i class="fa-solid fa-chevron-left icon1"></i>
+                <h2 class="main-heading">Achievements</h2>
+                <i class="fa-solid fa-arrow-turn-down icon2"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="achive_heading"> "Elevating Excellence, One Success Story at a time."</h2>
+                <p class="achive_para">No progress? Find a smarter way and be one of the thousands who succeeded with us!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<img id="achievementsImage" class="img-fluid" src="./assets/images/achievements_default.jpg" />
+
+<script>
+    function changeYear() {
+        var selectedYear = document.getElementById("yearDropdown").value;
+        var achievementsHeading = document.querySelector(".achive_heading");
+        var achievementsParagraph = document.querySelector(".achive_para");
+        var achievementsImage = document.getElementById("achievementsImage");
+
+        // Customize the content based on the selected year
+        if (selectedYear === "2019") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time1.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/10.png";
+        } else if (selectedYear === "2020") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time2.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/achievements.jpg";
+        } else if (selectedYear === "2021") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time3.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/1.png";
+        } else if (selectedYear === "2022") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time4.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/2.png";
+        }
+    }
+</script>
+
+</body>
+</html>

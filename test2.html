@@ -154,12 +154,13 @@
  
  
  <!-- SLIDER CARD -->
- <div class="container card slider_card shadow  padding_style  disible_to_md  disible_up_to_md">
-    <div class="row text-center"> <!-- Added text-center class here -->
-        <div class=" drop_down_style style_to_xs_card col-lg-2 col-md-6 col-sm-6  d-flex align-items-center justify-content-center" style="font-weight: bold;">
+<!-- SLIDER CARD -->
+<div class="container card slider_card shadow padding_style disible_to_md disible_up_to_md">
+    <div class="row text-center">
+        <div class="drop_down_style style_to_xs_card col-lg-2 col-md-6 col-sm-6 d-flex align-items-center justify-content-center" style="font-weight: bold;">
             <div class="custom-select-width ">
                 <select id="yearDropdown" onchange="changeYear()" style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
-                    <option value="year" selected><strong> Select Year</strong></option>
+                    <option value="year" selected><strong>Select Year</strong></option>
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
                     <option value="2021">2021</option>
@@ -168,6 +169,7 @@
             </div>
         </div>
 
+        <!-- ... Other elements in your dropdown ... -->
         <div class="text_card_top style_to_xs col-lg-2 col-md-6 col-sm-6  " >
             <p  style="font-weight: bold;">JEE ADVANCED</p>
         </div>
@@ -187,44 +189,9 @@
         <div class="text_card_top style_to_xs only_xs_mb col-lg-1 col-md-6  col-sm-6">
             <i  style="font-weight: bold;" class="bi bi-download solid-icon bg-circle-red"></i>
         </div>
-        
-        
     </div>
 </div>
 
-<div id="achievementsSection">
-    <!-- The content for achievements will be dynamically added here based on the selected year -->
-</div>
-
-<script>
-    function changeYear() {
-        var selectedYear = document.getElementById("yearDropdown").value;
-        var achievementsSection = document.getElementById("achievementsSection");
-
-        // You can customize the content based on the selected year
-        var content = "";
-
-        // Example content, replace this with your actual data
-        if (selectedYear === "2020") {
-            content = "<h2>Achievements in 2020</h2><p>Details about achievements in 2020.</p>";
-        } else if (selectedYear === "2021") {
-            content = "<h2>Achievements in 2021</h2><p>Details about achievements in 2021.</p>";
-        } else if (selectedYear === "2022") {
-            content = "<h2>Achievements in 2022</h2><p>Details about achievements in 2022.</p>";
-        } else if (selectedYear === "2023") {
-            content = "<h2>Achievements in 2023</h2><p>Details about achievements in 2023.</p>";
-        }
-
-        achievementsSection.innerHTML = content;
-    }
-</script>
-
-<!-- ENDING  SLIDER CARD -->
-
-
-<!-- section2 -->
-
- 
 <section>
     <div class="container">
         <div class="row">
@@ -237,19 +204,54 @@
     </div>
 </section>
 
-<section>
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="achive_heading"> "Elevating Excellence, One Success Story at a time."</h2>
-                <p class="achive_para">No progress? Find a smarter way and be one of the thousands who succeeded with us!</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 
-<img class="img-fluid" src="./assets/images/achievements.jpg" class="img-fluid" />
+<div id="achievementsSection" class="container mt-4">
+    <!-- The content for achievements will be dynamically added here based on the selected year -->
+    <h2 class="achive_heading"></h2>
+    <p class="achive_para"></p>
+    <img id="achievementsImage" class="img-fluid" src="./assets/images/achievements_default.jpg" />
+</div>
+
+<script>
+    function changeYear() {
+        var selectedYear = document.getElementById("yearDropdown").value;
+        var achievementsHeading = document.querySelector(".achive_heading");
+        var achievementsParagraph = document.querySelector(".achive_para");
+        var achievementsImage = document.getElementById("achievementsImage");
+
+        // Customize the content based on the selected year
+        if (selectedYear === "2019") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time1.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/1.png";
+        } else if (selectedYear === "2020") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time2.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/achievements.jpg";
+        } else if (selectedYear === "2021") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time3.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/1.png";
+        } else if (selectedYear === "2022") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time4.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/2.png";
+        }
+    }
+</script>
+<!-- ENDING SLIDER CARD -->
+
+
+<!-- ENDING  SLIDER CARD -->
+
+
+
+
+
+
+
+
 
     </main>
 
