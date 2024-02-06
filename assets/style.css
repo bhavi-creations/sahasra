@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 
 
@@ -411,7 +411,7 @@ color:#000000;
     margin-left: 5%;
 }
 .home-head {
-    font-family: Amazon Ember;
+ 
 font-size: 36px;
 font-weight: 700;
 line-height: 43px;
@@ -657,6 +657,7 @@ font-size: 30px;
 
 }
 
+
 @media (min-width:992px) {
     .map_mesur_max{
         display: none;
@@ -698,6 +699,22 @@ color: #016867;
 }
   
 .paragraph {
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+
+} 
+.paragraph1 {
     font-family: Poppins;
 font-size: 18px;
 font-weight: 500;
