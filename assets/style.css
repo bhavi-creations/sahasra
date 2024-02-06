@@ -457,17 +457,25 @@ color:#007574;
 }
 
 /* contact page css */
+/* contact page css */
 .icon1 {
     background-color:white;
-    border-radius:10px;
+   
     /* height:10px; */
     padding-top:10px;
     margin-top: 5px;
-    width: 24px;
-height: 24px;
-top: 209px;
-left: 602px;
-padding: 6px, 0px, 6px, 0px;
+    width: 40px;
+height: 40px;
+/* top: 209px; */
+/* left: 602px; */
+ 
+   margin-right: 20px;
+/* background-color: red; */
+ 
+border-radius: 50%; /* Make it circular */
+padding: 15px; /* Adjust padding for the desired size */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+
 
 }
 
@@ -475,9 +483,9 @@ padding: 6px, 0px, 6px, 0px;
     padding:20px;
     width: 40px;
 height: 40px;
-top: 217px;
-left: 796px;
-
+ font-weight: bold;
+font-size: 30px;
+ color: #5c5f5f;
 }
 
 /* admission page css */
@@ -722,6 +730,12 @@ letter-spacing: 0em;
 text-align: left;
 color: #016867;
 
+}
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: center;
 }
 .text_form {
 
