@@ -338,37 +338,67 @@ color:#000000;
 .Sahasara_aim_totalsection{
     background-color: rgb(245, 233, 233);
 }
+/* adminssion-card */
+
+
 .con1{
-    width: 1240px;
-/* height: 350px; */
-top: 447px;
-left: 103px;
-border-radius: 35px;
-background-color:#007574;
-}
-.conthead {
-    font-family: Inter;
-font-size: 33px;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: 0em;
-text-align: left;
-color:#FFFFFF;
-}
-.contpara {
-    font-family: Poppins;
-font-size: 18px;
-font-weight: 500;
-line-height: 31px;
-letter-spacing: 0em;
-text-align: left;
-color:#FFFFFF;
-}
-/* .junior_college_courses_cricle{
-    position: absolute;
-    z-index: -1;
-    margin-top: -5%;
-} */
+   
+ 
+    border-radius: 35px;
+    background-color:#007574;
+    }
+    
+    @media (min-width:1200px) {
+        .admin_ssion_card{
+            margin-top: -400px !important;
+        }
+    }
+    
+    @media (min-width:992px) and (max-width:1200px) {
+        
+    
+        .admin_ssion_card{
+            margin-top: -500px !important;
+        }
+         
+        }
+    
+    
+     @media (min-width:768px) and (max-width:992px){
+        
+    
+    .admin_ssion_card{
+        margin-top: -600px !important;
+    }
+     
+    }
+    
+    @media (max-width:768px) {
+        .admin_ssion_card{
+            margin-top: 50px !important;
+        }
+    }
+    
+    
+    .conthead {
+        font-family: Inter;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+    }
+    .contpara {
+        font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+    }
+
 
 .junior_college_courses_cricle {
     position: absolute;
@@ -376,7 +406,16 @@ color:#FFFFFF;
     margin-top: -15%;
     margin-left: 5%;
 }
+.home-head {
+    font-family: Amazon Ember;
+font-size: 36px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: left;
+color:#007574;
 
+}
 
 .junior_college_courses{
     margin-left: 3%;
