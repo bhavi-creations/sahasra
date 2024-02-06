@@ -47,6 +47,7 @@ header {
     width: 130px; /* Adjust width as needed */
     height: 40px; /* Adjust height as needed */
     justify-content: center;
+    padding-left: 15px;
 }
 
 
@@ -148,7 +149,7 @@ header {
 .junior_college_courses_cricle {
     position: absolute;
     z-index: 1; /* Set z-index to 1 */
-    margin-top: -8%;
+    margin-top: -8% !important;
     margin-left: 3%;
 }
 
@@ -336,7 +337,7 @@ color:#000000;
 }
 
 .Sahasara_aim_totalsection{
-    background-color: rgb(245, 233, 233);
+    background-color: rgb(248, 248, 248);
 }
 /* adminssion-card */
 
