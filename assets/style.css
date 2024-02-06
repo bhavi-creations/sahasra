@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 
 
 *{
@@ -1015,5 +1018,3 @@ color: #016867;
     background-color: azure;
     /* background-color: rgb(236, 246, 247); */
 }
-@media (ma)
-
