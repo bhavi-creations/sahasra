@@ -206,12 +206,10 @@
 
 
 
-<div id="achievementsSection" class="container mt-4">
-    <!-- The content for achievements will be dynamically added here based on the selected year -->
-    <h2 class="achive_heading"></h2>
-    <p class="achive_para"></p>
-    <img id="achievementsImage" class="img-fluid" src="./assets/images/achievements_default.jpg" />
-</div>
+<!-- The content for achievements will be dynamically added here based on the selected year -->
+<h2 class="achive_heading">Elevating Excellence, One Success Story at a time1.</h2>
+<p class="achive_para">No progress? Find a smarter way and be one of the thousands who succeeded with us!</p>
+<img id="achievementsImage" class="img-fluid d-flex flex-row justify-content-center" src="./assets/images/achievements.jpg" />
 
 <script>
     function changeYear() {
@@ -224,22 +222,25 @@
         if (selectedYear === "2019") {
             achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time1.";
             achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
-            achievementsImage.src = "./assets/images/1.png";
+            achievementsImage.src = "./assets/images/achievements.jpg";
         } else if (selectedYear === "2020") {
             achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time2.";
             achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
-            achievementsImage.src = "./assets/images/achievements.jpg";
+            achievementsImage.src = "./assets/images/coll1 (1).jpg";
         } else if (selectedYear === "2021") {
             achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time3.";
             achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
-            achievementsImage.src = "./assets/images/1.png";
+            achievementsImage.src = "./assets/images/coll2 (1).jpg";
         } else if (selectedYear === "2022") {
             achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time4.";
             achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
-            achievementsImage.src = "./assets/images/2.png";
-        }
+            achievementsImage.src = "./assets/images/coll4 (1).jpg";
+        } 
     }
+
+    // Remove the changeYear() call from here
 </script>
+
 <!-- ENDING SLIDER CARD -->
 
 
