@@ -338,7 +338,32 @@ color:#000000;
 .Sahasara_aim_totalsection{
     background-color: rgb(245, 233, 233);
 }
-
+.con1{
+    width: 1240px;
+/* height: 350px; */
+top: 447px;
+left: 103px;
+border-radius: 35px;
+background-color:#007574;
+}
+.conthead {
+    font-family: Inter;
+font-size: 33px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+color:#FFFFFF;
+}
+.contpara {
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color:#FFFFFF;
+}
 /* .junior_college_courses_cricle{
     position: absolute;
     z-index: -1;
@@ -371,6 +396,24 @@ color:#000000;
     width: 45%;
     margin-top: -5%;
     border-radius: 10px;
+}
+
+/* testimonials */
+   
+ 
+.testimonial-card {
+    border-radius: 8px !important; /* Adding rounded corners for cards */
+    border: none;
+}
+
+.profile_pic{
+    border-radius: 50%  ;
+}
+ 
+.hr-dark-bold {
+    border-top: 2px solid #000;
+    font-weight: bold;
+     
 }
 
 /* contact page css */
@@ -578,6 +621,19 @@ left: 796px;
     }
   }
  
+.card-form {
+    position:relative;
+
+    margin-top:8%;
+    border-radius:10px;
+
+
+}
+.card-main {
+    position: absolute;
+    /* display:none; !important */
+}
+
 
 .main-heading {
     font-family: Poppins;
