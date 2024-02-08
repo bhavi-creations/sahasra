@@ -502,7 +502,7 @@ font-size: 30px;
   height: 45px;
   flex-shrink: 0;
   border: transparent;
-  /* padding-left: 20px; */
+  padding-left: 20px;
   margin:10px;
   }
 
@@ -1017,4 +1017,51 @@ color: #016867;
 .foot {
     background-color: azure;
     /* background-color: rgb(236, 246, 247); */
+}
+
+
+/* WhatsApp Logo */
+.whatsapp_logo {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999; /* Ensure it appears on top of other content */
+}
+
+.whatsapp_logo img {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+}
+
+/* Scroll-to-Top Button */
+#scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:#4698db; /* Background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 80%;
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 24px; /* Adjust font size as needed */
+    cursor: pointer;
+    z-index: 9999; /* Ensure it appears on top of other content */
+}
+
+#scroll-top:hover {
+    background-color: #118383; /* Hover background color */
+}
+
+
+#scrollBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius:50%;
+    cursor: pointer;
+    display: none;
 }
