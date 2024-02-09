@@ -37,7 +37,7 @@
 
     
 </head>
-<body>
+<body onload="changeBrochure()">
     <header>
         <div class="  d-none   d-lg-block">
             <div class="row d-flex">
@@ -155,7 +155,7 @@
     <div class="row text-center">
         <div class="drop_down_style style_to_xs_card col-lg-2 col-md-6 col-sm-6 d-flex align-items-center justify-content-center" style="font-weight: bold;">
             <div class="custom-select-width ">
-                <select id="yearDropdown" onchange="changeYear()" style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
+                <select id="yearDropdown" onchange="changeYear(); changeBrochure();"  style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
                     <option value="year" selected><strong>Select Year</strong></option>
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
@@ -183,7 +183,7 @@
         </div>
 
         <div class="text_card_top style_to_xs only_xs_mb col-lg-1 col-md-6  col-sm-6">
-            <i  style="font-weight: bold;" class="bi bi-download solid-icon bg-circle-red"></i>
+            <a id="brochureLink" href="#" download><i style="font-weight: bold;" class="bi bi-download solid-icon bg-circle-red"></i></a>
         </div>
     </div>
 </div>
@@ -236,6 +236,20 @@
         } 
     }
     
+
+
+    function changeBrochure() {
+        var selectedYear = document.getElementById("yearDropdown").value;
+        var brochureLink = document.getElementById("brochureLink");
+
+        // Define the base path for your brochures
+        var basePath = "brouchers/Nemala_Subrahmanyam_CV_";
+
+        // Update the href and download attributes based on the selected year
+        brochureLink.href = basePath + selectedYear + ".pdf";
+        brochureLink.download = "Nemala_Subrahmanyam_CV_" + selectedYear + ".pdf";
+    }
+
 </script>
 <!-- ENDING SLIDER CARD -->
 
