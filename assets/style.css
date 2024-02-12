@@ -1029,24 +1029,12 @@ color: #016867;
 }
 
 .whatsapp_logo img {
-    width: 60px; /* Adjust size as needed */
-    height: 60px; /* Adjust size as needed */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
 }
 
 /* Scroll-to-Top Button */
-#scroll-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color:#4698db; /* Background color */
-    color: #fff; /* Text color */
-    border: none;
-    border-radius: 80%;
-    padding: 10px; /* Adjust padding as needed */
-    font-size: 24px; /* Adjust font size as needed */
-    cursor: pointer;
-    z-index: 9999; /* Ensure it appears on top of other content */
-}
+
 
 #scroll-top:hover {
     background-color: #118383; /* Hover background color */
@@ -1057,8 +1045,8 @@ color: #016867;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 10px 13px;
+    background-color: #007574;
     color: #fff;
     border: none;
     border-radius:50%;
