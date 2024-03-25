@@ -32,9 +32,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = 'New Message from Contact Form';
+        $mail->Subject = 'Message from Sahasra College';
         $mail->Body = "
-            <h1>New Message</h1>
+            <h1>Contact Message</h1>
             <p><strong>First Name:</strong> $Name</p>
             <p><strong>Email:</strong> $Email</p>
              <p><strong>Phone:</strong> $Number</p>
