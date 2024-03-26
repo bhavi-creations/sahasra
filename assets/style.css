@@ -786,6 +786,22 @@ textarea {
 
 }
 
+.card-title_model {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    /* line-height: 32px; */
+    letter-spacing: 0em;
+    /* text-align: left; */
+    /* color: #016867; */
+}
+
+@media (min-width:375px){
+.bg_image_mode{
+    margin-left:50px;
+}
+
+}
 .card-title {
     text-align: center;
 }
@@ -815,6 +831,8 @@ textarea {
     padding-left: 30px;
     padding-top: 10px;
 }
+
+
 
 /* Gallery page css */
 /* gallery   */
@@ -1130,24 +1148,95 @@ textarea {
 
 
 
-.about_card {
-    height: 255px;
-    width: 255px;
-    text-align: center;
-    background: linear-gradient(to left, rgb(233, 42, 42), #016867);
-    display: flex;
-    justify-content: center;
+.about_card1 {
+    /* height: 200px; */
+    /* width: 255px; */
+    /* text-align: center; */
+    /* background: linear-gradient(to left, rgb(233, 42, 42), #016867); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border-radius: 20px; */
+    /* margin-right: -73px; */
+    /* margin-left: ; */
+/* margin-top: -15px; */
+    /* clip-path: polygon(44% 6%, 78% 6%, 100% 12%, 100% 100%, 75% 94%, 42% 95%, 0 100%, 0 14%); */
+    /* position: absolute;
+    z-index: -10; */
 }
 
+.about_card2 {
+    /* height: 200px; */
+    /* width: 255px; */
+    /* text-align: center; */
+    /* background: linear-gradient(to left, rgb(233, 42, 42), #016867);  */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border-radius: 20px;
+    margin-left: -53px;
+    margin-top: 4px; */
+    /* clip-path: polygon(27% 5%, 68% 3%, 100% 0, 100% 94%, 70% 96%, 27% 98%, 0 96%, 0 1%); */
+    /* position: absolute;
+    z-index: 3; */
+}
 
 .course_card {
     height: 255px;
     width: 255px;
 }
 
-.pop_card_size {
-    height: 155px;
-    width: 255px;
-    display: flex;
-    justify-content: center;
+.pop_card_size1 {
+    /* border-radius: 20px; */
+       /* height: 200px;
+    width: 255px; */
+    /* display: flex; */
+    /* justify-content: center;   */
+    /* clip-path: polygon(0 0, 93% 0, 98% 35%, 98% 58%, 91% 100%, 0 99%, 5% 59%, 5% 37%); */
+    /* margin-bottom: -78px; */
+    margin-left: -100px; 
+    
+
+}
+.pop_card_size2 {
+    /* height: 190px;
+ width: 255px; */
+ /* display: flex; */
+ /* border-radius: 20px; */
+ /* justify-content: center;   */
+ /* clip-path: polygon(12% 0, 100% 0, 93% 36%, 93% 57%, 100% 100%, 11% 100%, 3% 59%, 3% 36%); */
+/* margin-top: -75px; */
+/* margin-left: -140px; */
+/* position: absolute;
+z-index: -10; */
+
+}
+ 
+ 
+.card_moadal{
+    /* z-index: 10;
+    position: relative; */
+}
+#model_size_text{
+    font-size: 14px !important;
+}
+
+@media (min-width:375px) and (max-width:576px) {
+    
+    .only_modele_left{
+        margin-left: -70px;
+        
+        
+    }
+    
+    .only_modele_left_littlt{
+        margin-left: -70px;
+    }
+}
+
+@media (min-width:768px) {
+    
+.bla_bla{
+    margin-top: -10px;
+}
+
+
 }
