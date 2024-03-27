@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
 
     <title>Sahasra Collage</title>
-    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="icon" href="./assets/images/sahasra new logo_mini.png" type="image/x-icon">
 
     <link rel="stylesheet" href="./assets/style.css">
 
@@ -144,15 +144,17 @@
                         </div>
 
                     </li>
+       
+
                     <li class="nav-item d-flex align-items-center fancy">
-                        <a style="color:white; font-weight: bold;" class="nav-link" href="gallery.html">Download</a>
+                        <a style="color:white; font-weight: bold;" class="nav-link">Download</a>
                         <div>
                             <a id="brochureLink" href="#" download>
-                                <i style="font-weight: bold; width: 24px; height: 24px; margin-top: 0px;" class="bi bi-download solid-icon bg-circle-red"></i>
+                                <i style="font-weight: bold; width: 24px; height: 24px; margin-top: 0px;"
+                                    class="bi bi-download solid-icon bg-circle-red"></i>
                             </a>
                         </div>
                     </li>
-                    
                     <li class="nav-item only_toggle d-xs-block d-lg-none">
                         <a style="color:white; font-weight: bold;" class="nav-link" href="contact.html">Contact Us</a>
                     </li>
@@ -253,9 +255,10 @@
             <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
               <img src="assets/browchers/browchers1 (1).jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12  mb-4">
-                <img src="assets/browchers/browchers2.jpg" alt=""   class="img-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                <img src="assets/browchers/browchers16.jpg" alt="" class="img-fluid">
             </div>
+           
             <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                 <img src="assets/browchers/browchers11.jpg" alt=""   class="img-fluid">
             </div>
@@ -265,13 +268,13 @@
             <div class="col-lg-4 col-md-4 col-sm-12  mb-4">
                 <img src="assets/browchers/browchers13.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                <img src="assets/browchers/browchers16.jpg" alt="" class="img-fluid">
-            </div>
+         
             <div class="col-lg-4 col-md-4 col-sm-12 ">
                 <img src="assets/browchers/browchers15.jpg" alt="" class="img-fluid">
             </div>
-
+            <div class="col-lg-4 col-md-4 col-sm-12  mb-4">
+                <img src="assets/browchers/browchers2.jpg" alt=""   class="img-fluid">
+            </div>
             <div class="col-12 col-md-12 col-sm-12  mb-3 d-flex  flex-row justify-content-center">
                 <img src="assets/browchers/browchers6.jpg" alt=""  class="img-fluid" >
             </div>
@@ -322,16 +325,16 @@
 
 
     function changeBrochure() {
-        var selectedYear = document.getElementById("yearDropdown").value;
-        var brochureLink = document.getElementById("brochureLink");
+                // var selectedYear = document.getElementById("yearDropdown").value;
+                var brochureLink = document.getElementById("brochureLink");
 
-        // Define the base path for your brochures
-        var basePath = "assets/images/2023_img.png";
+                // Define the base path for your brochures
+                var basePath = "assets/images/2023_img.png";
 
-        // Update the href and download attributes based on the selected year
-        brochureLink.href = basePath  ;
-        brochureLink.download = "2023_img"   ;
-    }
+                // Update the href and download attributes based on the selected year
+                brochureLink.href = basePath;
+                brochureLink.download = "2023_img.png";
+            }
 
 </script>
 <!-- ENDING SLIDER CARD -->
